@@ -18,11 +18,11 @@ public class SelectionManager : MonoBehaviour
         interaction_text = InteractionInfo.GetComponent<TextMeshProUGUI>();
     }
  
-    void Update()
+    void LateUpdate()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, 45))
         {
             var selectionTransform = hit.transform;
             InteractableObject interactable = selectionTransform.GetComponent<InteractableObject>();
