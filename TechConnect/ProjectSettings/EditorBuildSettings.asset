@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 1152c47cc32fa264d8c343f8a4ea3178
+  - enabled: 1
+    path: Assets/Scenes/Planet Reed.unity
+    guid: 77b92e62a47d45a479c0bd93976bfebb
   m_configObjects: {}
