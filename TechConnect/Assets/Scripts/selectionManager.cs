@@ -38,5 +38,9 @@ public class SelectionManager : MonoBehaviour
             }
  
         }
+        else 
+        {
+            InteractionInfo.SetActive(false);
+        }
     }
 }
